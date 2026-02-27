@@ -12,7 +12,7 @@ const requestHandler = (req, res) => {
           <a href="/calculator">Go To Calculator</a>
         </body>  
       <html>  
-    `);    
+    `);
     return res.end();
 
   } else if (req.url.toLowerCase() === "/calculator") {
@@ -52,3 +52,4 @@ const requestHandler = (req, res) => {
 
 
 module.exports= requestHandler;
+
