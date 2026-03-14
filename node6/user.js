@@ -23,7 +23,7 @@ const userRequestHandler = (req, res) => {
   } else if (req.url.toLowerCase() === "/submit-details" &&
         req.method == "POST") {
     
-    const body = [];      
+    const body = [];    
     req.on('data', chunk => {
       console.log(chunk);
       body.push(chunk);
